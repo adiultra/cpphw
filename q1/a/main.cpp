@@ -11,6 +11,7 @@ int main(){
     double area;
     s = ((a+b+c)/2);
     cout << "the area is " << sqrt(s*(s-a)*(s-b)*(s-c)) << endl;
-
+    cout << "the perimeter is " << a+b+c << endl;
+    
     return 0;
 }
